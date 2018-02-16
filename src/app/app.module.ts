@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { MaterialModule } from './material.module';
 
 @NgModule ({
   declarations: [
@@ -17,9 +18,9 @@ import { MatIconModule } from '@angular/material/icon';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
     MatMenuModule,
     MatInputModule,
-    FlexLayoutModule,
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
